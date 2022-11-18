@@ -48,4 +48,14 @@ The following guides illustrate how to use some features concretely:
     }
  }
  ```
+ Error Response
+ ```json
+ {
+    "error": {
+        "message": "atleast one reward should be apply",
+        "statusCode": "BAD_REQUEST"
+    },
+    "data": null
+}
+```
 5. You can view h2 console using http://localhost:8989/h2-console/login.do
