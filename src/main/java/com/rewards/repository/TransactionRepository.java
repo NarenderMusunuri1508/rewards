@@ -10,7 +10,6 @@ import java.sql.Timestamp;
 import java.util.List;
 
 @Repository
-@Transactional
 public interface TransactionRepository extends JpaRepository<Transaction, Long> {
 
      List<Transaction> findAllByCustomerId(Long customerId);

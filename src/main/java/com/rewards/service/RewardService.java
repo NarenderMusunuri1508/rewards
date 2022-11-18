@@ -21,11 +21,9 @@ import java.util.stream.Collectors;
 @Service
 public class RewardService {
 
-    @Autowired
+
     private final RewardRepository rewardRepository;
-    @Autowired
     private final TransactionService transactionService;
-    @Autowired
     private final RewardsCalculator rewardsCalculator;
 
     Logger logger = LoggerFactory.getLogger(RewardService.class);
